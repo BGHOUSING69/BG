@@ -1,5 +1,6 @@
 const MAPBOX_TOKEN = 'pk.eyJ1IjoiYm91ZGFhZ29wIiwiYSI6ImNtY3JzY3kyYzByMWsydnE3NGV2ZWN5eWcifQ.WEx6rGJXK7st_u3J9MfTbw';
-const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQTXiy4papzgRBru5YV3FstZKmMCfNPyULYHR2FP5g0nUeamAoSFBMPUPFJ3PwYXZjxotNn_o7Q_lMR/pub?gid=1834261042&single=true&output=csv';
+// Local sample data for offline testing; replace with Google Sheets URL for live data
+const CSV_URL = 'properties.csv';
 
 mapboxgl.accessToken = MAPBOX_TOKEN;
 const map = new mapboxgl.Map({
